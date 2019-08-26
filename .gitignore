@@ -112,6 +112,8 @@ proj.win32/Debug.*/
 proj.win32/Release.*/
 
 # others
+*.a
+
 # Built application files
 *.apk
 *.ap_
