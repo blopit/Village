@@ -6,9 +6,12 @@ LOCAL_MODULE := MyGame_shared
 
 LOCAL_MODULE_FILENAME := libMyGame
 
+CLASS_PATH := Classes
+
 LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
-                   $(LOCAL_PATH)/../../../Classes/AppDelegate.cpp \
-                   $(LOCAL_PATH)/../../../Classes/HelloWorldScene.cpp
+                   $(LOCAL_PATH)/../../../AppDelegate.cpp \
+                   $(LOCAL_PATH)/../../../TownScene.cpp \
+                   $(LOCAL_PATH)/../../../PanZoomLayer.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
 
