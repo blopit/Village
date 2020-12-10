@@ -9,20 +9,13 @@
 #define Unit_hpp
 
 #include "Entity.hpp"
-#include <vector>
 
-
-class Unit;
-
-struct AggroTable {
-    Unit* unit;
-    float amount;
+enum class Material {
+    FLESH, THICK_FLESH, WOOD, STONE
 };
 
 class Unit : public Entity {
-    
-    std::vector<AggroTable> aggroTable;
-    
+
 protected:
     bool indestructible = false;
    

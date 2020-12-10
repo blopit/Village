@@ -43,6 +43,8 @@
 		39D768BB2329E52500BAD147 /* Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D768B82329E52500BAD147 /* Unit.cpp */; };
 		39D768BE2329E53B00BAD147 /* Attribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D768BC2329E53B00BAD147 /* Attribute.cpp */; };
 		39D768BF2329E53B00BAD147 /* Attribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D768BC2329E53B00BAD147 /* Attribute.cpp */; };
+		39D768C2232A15F000BAD147 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D768C0232A15F000BAD147 /* Character.cpp */; };
+		39D768C3232A15F000BAD147 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D768C0232A15F000BAD147 /* Character.cpp */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
@@ -163,6 +165,8 @@
 		39D768B92329E52500BAD147 /* Unit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Unit.hpp; sourceTree = "<group>"; };
 		39D768BC2329E53B00BAD147 /* Attribute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Attribute.cpp; sourceTree = "<group>"; };
 		39D768BD2329E53B00BAD147 /* Attribute.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Attribute.hpp; sourceTree = "<group>"; };
+		39D768C0232A15F000BAD147 /* Character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		39D768C1232A15F000BAD147 /* Character.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
 		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
@@ -353,6 +357,8 @@
 				39D768B92329E52500BAD147 /* Unit.hpp */,
 				39D768BC2329E53B00BAD147 /* Attribute.cpp */,
 				39D768BD2329E53B00BAD147 /* Attribute.hpp */,
+				39D768C0232A15F000BAD147 /* Character.cpp */,
+				39D768C1232A15F000BAD147 /* Character.hpp */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -548,6 +554,7 @@
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
 				39D768AB23296C1B00BAD147 /* Perlin.cpp in Sources */,
 				39D768BE2329E53B00BAD147 /* Attribute.cpp in Sources */,
+				39D768C2232A15F000BAD147 /* Character.cpp in Sources */,
 				39D768B42329E4CF00BAD147 /* Entity.cpp in Sources */,
 				39618AF42314EB13000CA2FA /* Unit.cpp in Sources */,
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
@@ -571,6 +578,7 @@
 				39618AFB2314EB13000CA2FA /* Utility.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				39D768BF2329E53B00BAD147 /* Attribute.cpp in Sources */,
+				39D768C3232A15F000BAD147 /* Character.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				39D768B12329E24A00BAD147 /* Hex.cpp in Sources */,
 				39D768B52329E4CF00BAD147 /* Entity.cpp in Sources */,
